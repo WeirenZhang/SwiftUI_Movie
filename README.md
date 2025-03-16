@@ -1,4 +1,4 @@
-# Swift_Movie
+# SwiftUI_Movie
 一款基於 Swift + MVVM + RxSwift + Clean Architecture 的電影時刻表 App 完整項目。<br /><br />
 Java版：[Java_Movie](https://github.com/WeirenZhang/Java_Movie)<br /><br />
 ReactNative版： [ReactNative_Movie](https://github.com/WeirenZhang/ReactNative_Movie)<br /><br />
@@ -6,7 +6,7 @@ Flutter版：[Flutter_Movie](https://github.com/WeirenZhang/Flutter_Movie)<br />
 Kotlin版： [Kotlin_Movie](https://github.com/WeirenZhang/Kotlin_Movie)<br /><br />
 Objective-C版：[Objective-C_Movie](https://github.com/WeirenZhang/Objective-C_Movie)<br /><br />
 ComposeUI版：[ComposeUI_Movie](https://github.com/WeirenZhang/ComposeUI_Movie)<br /><br />
-SwiftUI版：[SwiftUI_Movie](https://github.com/WeirenZhang/SwiftUI_Movie)<br /><br />
+Swift版：[Swift_Movie](https://github.com/WeirenZhang/Swift_Movie)<br /><br />
 喜歡的話希望給個 Star 或 Fork ^_^ ，謝謝<br /><br />
 
 # 專案截圖
