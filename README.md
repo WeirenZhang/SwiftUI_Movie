@@ -6,34 +6,34 @@ Flutter版：[Flutter_Movie](https://github.com/WeirenZhang/Flutter_Movie)<br />
 Kotlin版： [Kotlin_Movie](https://github.com/WeirenZhang/Kotlin_Movie)<br /><br />
 Objective-C版：[Objective-C_Movie](https://github.com/WeirenZhang/Objective-C_Movie)<br /><br />
 ComposeUI版：[ComposeUI_Movie](https://github.com/WeirenZhang/ComposeUI_Movie)<br /><br />
-Swift版：[Swift_Movie](https://github.com/WeirenZhang/Swift_Movie)<br /><br />
+Swift版：[SwiftUI_Movie](https://github.com/WeirenZhang/SwiftUI_Movie)<br /><br />
 喜歡的話希望給個 Star 或 Fork ^_^ ，謝謝<br /><br />
 
 # 專案截圖
 
 |首頁|本周新片|本期首輪|
 |:---:|:---:|:---:|
-|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/1.png)|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/2.png)|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/3.png)
+|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/1.png)|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/2.png)|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/3.png)
 
 |本期二輪|近期上映|新片快報|
 |:---:|:---:|:---:|
-|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/4.png)|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/5.png)|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/6.png)
+|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/4.png)|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/5.png)|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/6.png)
 
 |電影資料|劇情簡介|播放時間|
 |:---:|:---:|:---:|
-|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/7.png)|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/8.png)|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/9.png)
+|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/7.png)|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/8.png)|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/9.png)
 
 |預告片|預告片|地區|
 |:---:|:---:|:---:|
-|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/10.png)|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/11.png)|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/12.png)
+|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/10.png)|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/11.png)|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/12.png)
 
 |電影院|播放時間|我的最愛|
 |:---:|:---:|:---:|
-|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/13.png)|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/14.png)|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/15.png)
+|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/13.png)|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/14.png)|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/15.png)
 
 |我的最愛|網路訂票|
 |:---:|:---:|
-|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/16.png)|![](https://github.com/WeirenZhang/Swift_Movie/blob/main/Screen/17.png)
+|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/16.png)|![](https://github.com/WeirenZhang/SwiftUI_Movie/blob/main/Screen/17.png)
 
 # 關於我
   - LINE：mark888123
