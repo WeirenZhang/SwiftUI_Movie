@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE003ABD2D4D5EC1008B09FF /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = CE003ABC2D4D5EC1008B09FF /* SwiftyBeaver */; };
+		CE003AC22D4D6261008B09FF /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = CE003AC12D4D6261008B09FF /* SFSafeSymbols */; };
+		CE366A8E2D4AB84C00611EFF /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = CE366A8D2D4AB84C00611EFF /* ComposableArchitecture */; };
+		CE8BAA5D2D71219800EEBD76 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = CE8BAA5C2D71219800EEBD76 /* GRDB */; };
+		CE8BAA642D7123EE00EEBD76 /* Tagged in Frameworks */ = {isa = PBXBuildFile; productRef = CE8BAA632D7123EE00EEBD76 /* Tagged */; };
+		CE8BAA662D7123EE00EEBD76 /* TaggedMoney in Frameworks */ = {isa = PBXBuildFile; productRef = CE8BAA652D7123EE00EEBD76 /* TaggedMoney */; };
+		CE8BAA682D7123EE00EEBD76 /* TaggedTime in Frameworks */ = {isa = PBXBuildFile; productRef = CE8BAA672D7123EE00EEBD76 /* TaggedTime */; };
+		CE98629D2D4E87F100D659FB /* Kanna in Frameworks */ = {isa = PBXBuildFile; productRef = CE98629C2D4E87F100D659FB /* Kanna */; };
+		CEEFDFCF2D57C27200274AE3 /* TTProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = CEEFDFCE2D57C27200274AE3 /* TTProgressHUD */; };
+		CEEFDFD92D5807D900274AE3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CEEFDFD82D5807D900274AE3 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CE3668C72D40494400611EFF /* SwiftUI_Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +36,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEFDFD92D5807D900274AE3 /* Kingfisher in Frameworks */,
+				CE003AC22D4D6261008B09FF /* SFSafeSymbols in Frameworks */,
+				CE8BAA642D7123EE00EEBD76 /* Tagged in Frameworks */,
+				CE8BAA682D7123EE00EEBD76 /* TaggedTime in Frameworks */,
+				CE366A8E2D4AB84C00611EFF /* ComposableArchitecture in Frameworks */,
+				CEEFDFCF2D57C27200274AE3 /* TTProgressHUD in Frameworks */,
+				CE98629D2D4E87F100D659FB /* Kanna in Frameworks */,
+				CE8BAA5D2D71219800EEBD76 /* GRDB in Frameworks */,
+				CE003ABD2D4D5EC1008B09FF /* SwiftyBeaver in Frameworks */,
+				CE8BAA662D7123EE00EEBD76 /* TaggedMoney in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,16 @@
 			);
 			name = SwiftUI_Movie;
 			packageProductDependencies = (
+				CE366A8D2D4AB84C00611EFF /* ComposableArchitecture */,
+				CE003ABC2D4D5EC1008B09FF /* SwiftyBeaver */,
+				CE003AC12D4D6261008B09FF /* SFSafeSymbols */,
+				CE98629C2D4E87F100D659FB /* Kanna */,
+				CEEFDFCE2D57C27200274AE3 /* TTProgressHUD */,
+				CEEFDFD82D5807D900274AE3 /* Kingfisher */,
+				CE8BAA5C2D71219800EEBD76 /* GRDB */,
+				CE8BAA632D7123EE00EEBD76 /* Tagged */,
+				CE8BAA652D7123EE00EEBD76 /* TaggedMoney */,
+				CE8BAA672D7123EE00EEBD76 /* TaggedTime */,
 			);
 			productName = SwiftUI_Movie;
 			productReference = CE3668C72D40494400611EFF /* SwiftUI_Movie.app */;
@@ -94,6 +127,16 @@
 			);
 			mainGroup = CE3668BE2D40494400611EFF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CE366A8C2D4AB84C00611EFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				CE003ABB2D4D5EC1008B09FF /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+				CE003AC02D4D6261008B09FF /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
+				CE98629B2D4E87F100D659FB /* XCRemoteSwiftPackageReference "Kanna" */,
+				CEEFDFCD2D57C27200274AE3 /* XCRemoteSwiftPackageReference "TTProgressHUD" */,
+				CEEFDFD72D5807D900274AE3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				CE8BAA5B2D71219700EEBD76 /* XCRemoteSwiftPackageReference "GRDB" */,
+				CE8BAA622D7123EE00EEBD76 /* XCRemoteSwiftPackageReference "swift-tagged" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CE3668C82D40494400611EFF /* Products */;
 			projectDirPath = "";
@@ -183,7 +226,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG PRINT_CHANGES $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -255,11 +298,13 @@
 				DEVELOPMENT_TEAM = B879689N59;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Movie-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,11 +329,13 @@
 				DEVELOPMENT_TEAM = B879689N59;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Movie-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +371,126 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE003ABB2D4D5EC1008B09FF /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		CE003AC02D4D6261008B09FF /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SFSafeSymbols/SFSafeSymbols";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.0;
+			};
+		};
+		CE366A8C2D4AB84C00611EFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.1;
+			};
+		};
+		CE8BAA5B2D71219700EEBD76 /* XCRemoteSwiftPackageReference "GRDB" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.3.0;
+			};
+		};
+		CE8BAA622D7123EE00EEBD76 /* XCRemoteSwiftPackageReference "swift-tagged" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-tagged";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+		CE98629B2D4E87F100D659FB /* XCRemoteSwiftPackageReference "Kanna" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tid-kijyun/Kanna";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.0;
+			};
+		};
+		CEEFDFCD2D57C27200274AE3 /* XCRemoteSwiftPackageReference "TTProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/honkmaster/TTProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+		CEEFDFD72D5807D900274AE3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE003ABC2D4D5EC1008B09FF /* SwiftyBeaver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE003ABB2D4D5EC1008B09FF /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
+			productName = SwiftyBeaver;
+		};
+		CE003AC12D4D6261008B09FF /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE003AC02D4D6261008B09FF /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
+		};
+		CE366A8D2D4AB84C00611EFF /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE366A8C2D4AB84C00611EFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		CE8BAA5C2D71219800EEBD76 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE8BAA5B2D71219700EEBD76 /* XCRemoteSwiftPackageReference "GRDB" */;
+			productName = GRDB;
+		};
+		CE8BAA632D7123EE00EEBD76 /* Tagged */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE8BAA622D7123EE00EEBD76 /* XCRemoteSwiftPackageReference "swift-tagged" */;
+			productName = Tagged;
+		};
+		CE8BAA652D7123EE00EEBD76 /* TaggedMoney */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE8BAA622D7123EE00EEBD76 /* XCRemoteSwiftPackageReference "swift-tagged" */;
+			productName = TaggedMoney;
+		};
+		CE8BAA672D7123EE00EEBD76 /* TaggedTime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE8BAA622D7123EE00EEBD76 /* XCRemoteSwiftPackageReference "swift-tagged" */;
+			productName = TaggedTime;
+		};
+		CE98629C2D4E87F100D659FB /* Kanna */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE98629B2D4E87F100D659FB /* XCRemoteSwiftPackageReference "Kanna" */;
+			productName = Kanna;
+		};
+		CEEFDFCE2D57C27200274AE3 /* TTProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEEFDFCD2D57C27200274AE3 /* XCRemoteSwiftPackageReference "TTProgressHUD" */;
+			productName = TTProgressHUD;
+		};
+		CEEFDFD82D5807D900274AE3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEEFDFD72D5807D900274AE3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE3668BF2D40494400611EFF /* Project object */;
 }
